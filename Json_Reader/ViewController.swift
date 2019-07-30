@@ -80,7 +80,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // reload data for next use, this will get the data before then hit the reload button.
         // all the app has to do is build the table and display it to the user.
         getData()
-        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
